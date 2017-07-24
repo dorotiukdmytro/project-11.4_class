@@ -8,7 +8,7 @@ function Phone(brand, price, color, weight, year) {
 	this.year = year;
 }
 Phone.prototype.printInfo = function() {
-	console.log("The phone brand is " + this.brand + ", color is " + this.color + " and the price is " + this.price + ".");
+	console.log("The phone brand is: " + this.brand + ", color is: " + this.color + ", the price is: " + this.price + ", weight is: " + this.weight + ", and the year is: " + this.year +  ".");
 }
 Phone.prototype.showInfo = function() {
 	alert("Is good choice!");
