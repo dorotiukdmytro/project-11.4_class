@@ -18,3 +18,6 @@ var iPhone6S = new Phone('Apple', 3000, 'black', 120, 2016),
 	OnePlusOne = new Phone('HTC', 2500, 'white', 134, 2017),
 	SonyXperiaXA = new Phone('Sony', 2800, 'silver', 132, 2017),
 	HuaweiP10 = new Phone('Huawei', 2200, 'blue', 118, 2017);
+
+SonyXperiaXA.printInfo();
+OnePlusOne.printInfo();
